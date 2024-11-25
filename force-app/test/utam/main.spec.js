@@ -1,9 +1,4 @@
-import DesktopLayoutContainer from 'salesforce-pageobjects/navex/pageObjects/desktopLayoutContainer';
-import ObjectHome from 'salesforce-pageobjects/force/pageObjects/objectHome'; // Adjust the path as needed
-import RecordActionWrapper from 'salesforce-pageobjects/global/pageObjects/recordActionWrapper'; // Adjust the path as needed
-import test from './__utam__/test.utam.json'
 import { logInSalesforce } from './utam-helper';
-
 describe('main', () => {
   beforeAll(async () => {
     try {
